@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for user in $( find data -name "*.bz2")
+for user in $( rm exploded/**/wiki_* )
 do
   bunzip2 $user
 done
